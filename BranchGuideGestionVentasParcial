@@ -1,0 +1,44 @@
+
+Desde smart git
+clono (notar carpeta aún vacía)
+doble clic a mi rama
+check out
+luego pull(100pre viendo que estoy en mi ramita)
+(notar carpeta ahora llena)
+
+---Si deseo hacer pull desde consola
+me voy a al carpeta
+que cree alli abro terminal vere que ya estoy e mi rama
+git pull origin develop
+syncronizo en smart
+----
+Al finalizar cambios:
+Selecciono en Smart los cambios en boton commit (te da dos opciones, debes elegir  "Local Chages")
+Hacer comentario
+Clic Boton COmmit & Push
+Verficar en Git online
+
+---Solucion de Conflictos, na vez hecho Pull Request
+primero deves estar en tu rama
+luego haces git fetch origin develop
+git merge origin/develop
+luego resuelve conflictos (1)
+git add 'Tablas de BD.sql'
+git commit -m 'Se complet'
+git push  link_repositorio nombre de tu ramita (es lo unico que cambia con respecto al otro)
+
+(1)
+Solucionar conflictos en WebsStorm , correr el programa;
+
+
+-------------------------------------------------------------
+/*Si alguien update develop*/
+---Si ya habías modificado algo :
+Te pedira commit en smart lueg pedira
+git fetch origin develop  en consola
+y luego al boton pull en samt
+
+---Sino comviene volver a clonarlo
+
+Ejemplo de Ruta Path
+http://localhost:9090/user_product_register/v1/user_product_register/1
