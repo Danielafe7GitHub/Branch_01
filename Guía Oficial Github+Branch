@@ -1,0 +1,17 @@
+#Si estás en Windows usa PowerShell
+1. mkdir medistory
+2. cd medistory
+3. git init
+4. git pull https://github.com/vanesantillana/medistory //para tener el ultimo cambio en master
+4.1 git branch -a //Lista tus ramitas locales (no si hay creadas en gitWeb, probablemente solo verás *master)
+5. git checkout -b Dani //creas tu rama; no crees tu comando desde gitWeb
+5.1 git checkout si ya habias hecho el comando de arriba
+6. aqui empiezas a cambiar el proyecto
+7. git status //para que veas los cambios
+8. git add . 
+9. git commit -m "mis cambios"
+10. git push https://github.com/vanesantillana/medistory Dani //para subir tus cambios a tu rama recien veras tu rama creada en gitWeb
+11. Listo ahora vas a git y creas un pull request desde GitWEB
+Haces Merge y si hay conflictos:
+Else:
+Merge
