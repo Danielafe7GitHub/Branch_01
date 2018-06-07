@@ -15,3 +15,24 @@
 Haces Merge y si hay conflictos:
 Else:
 Merge
+
+
+
+
+
+
+---------------------
+Denthistory Web Laravel
+//Abur proyecto
+Creas a la misma altura que evn.example un  archivo llamado .env
+Copias todo lo de env.example a .evv
+Modificas (que esos campos sean asi):
+DB_DATABASE=denthistory
+DB_USERNAME=root
+DB_PASSWORD=
+
+Abres consola:
+composer update //instalará paquetes
+php artisan key:generate
+//Se genera automaticamente este campo (intentar varias veces si n se coloca solo)
+APP_KEY=base64:brWCvGbHJe+B0gpSK7hHJ6/W2hIDOFwXhIJC3bOFe98=
