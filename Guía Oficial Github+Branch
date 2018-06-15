@@ -16,6 +16,12 @@ Haces Merge y si hay conflictos:
 Else:
 Merge
 
+12. Luego verifica si estás en tu rama com
+git status
+13. Si es así y quieres obtener lo nuevo que hay en master, producto de otros merge, etc.
+git pull https://github.com/vanesantillana/medistory
+Y ya está tu rama Dani está actualizada
+
 
 
 
